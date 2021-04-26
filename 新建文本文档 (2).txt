@@ -1,0 +1,19 @@
+本周工作：
+理解图片相似度、不同位置进行标注的功能实现，试运行函数对图片进行分析与结构保存，按照代码规范添加注释
+下周计划：
+理解MQTT运行逻辑，按照代码规范添加注释。依据log规范移植代码
+困难：
+理解了功能实现，opencv函数内部的函数方法实现需继续理解
+
+mosquitto -c mosquitto.conf
+
+
+mosquitto_pub -t topic -m 10086
+
+
+mosquitto_sub -v -t topic
+
+# 设置不允许匿名登录
+allow_anonymous true
+# 设置账户密码文件位置为C:\mosquitto\pwfile.example
+password_file /mosquitto/pwfile.example
